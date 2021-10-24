@@ -1,0 +1,262 @@
+2021-10-23 20:45:45,732 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplication using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 17868 (D:\Programming\Java\codingAssignment\target\classes started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 20:45:45,732 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 20:45:46,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 20:45:46,192 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2021-10-23 20:45:46,440 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 20:45:46,641 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 20:45:46,641 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 20:45:46,694 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 20:45:46,741 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 20:45:46,872 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 20:45:46,975 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 20:45:47,412 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 20:45:47,412 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 20:45:47,845 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplication in 2.52 seconds (JVM running for 3.129)
+2021-10-23 21:08:21,145 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplication using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 22392 (D:\Programming\Java\codingAssignment\target\classes started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 21:08:21,145 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 21:08:21,477 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 21:08:21,539 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2021-10-23 21:08:21,722 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 21:08:21,860 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 21:08:21,876 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 21:08:21,922 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 21:08:21,945 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 21:08:22,028 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 21:08:22,094 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 21:08:22,424 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 21:08:22,424 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:08:22,771 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplication in 1.952 seconds (JVM running for 2.497)
+2021-10-23 21:08:50,442 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Reading data from file...
+2021-10-23 21:08:50,442 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Trying to read file: D:/Programming/Java/codingChallenge/test2.txt
+2021-10-23 21:08:50,442 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> File found D:\Programming\Java\codingChallenge\test2.txt
+2021-10-23 21:08:50,442 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Processing the file
+2021-10-23 21:09:16,025 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Processing completed. Found 10000000 logs
+2021-10-23 21:09:16,025 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Finished...
+ >> Read 10000000 objects in 25583ms
+2021-10-23 21:09:16,025 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Processing data...
+2021-10-23 21:09:16,025 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Sorting Logs
+2021-10-23 21:09:32,611 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Logs sorted
+2021-10-23 21:09:39,499 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Entities created: 5000000 total
+2021-10-23 21:09:39,499 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Checking if Logs exist in database
+2021-10-23 21:09:39,564 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >>0 of LogEntities read from file exist in database, 5000000 entities will be stored
+2021-10-23 21:09:39,564 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Saving logs to database
+2021-10-23 21:11:33,230 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] Checkpoint start
+2021-10-23 21:11:33,232 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose start
+2021-10-23 21:11:33,232 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose synched
+2021-10-23 21:11:33,915 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose script done
+2021-10-23 21:11:33,948 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose end
+2021-10-23 21:11:33,948 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] Checkpoint end - txts: 2439058
+2021-10-23 21:13:26,542 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] Checkpoint start
+2021-10-23 21:13:26,542 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose start
+2021-10-23 21:13:26,563 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose synched
+2021-10-23 21:13:27,894 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose script done
+2021-10-23 21:13:27,925 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose end
+2021-10-23 21:13:27,925 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] Checkpoint end - txts: 4877619
+2021-10-23 21:15:22,436 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] Checkpoint start
+2021-10-23 21:15:22,437 INFO sun.reflect.NativeMethodAccessorImpl [HSQLDB Timer @5a772895] checkpointClose start
+2021-10-23 21:15:22,440 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose synched
+2021-10-23 21:15:24,361 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose script done
+2021-10-23 21:15:24,392 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose end
+2021-10-23 21:15:24,392 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint end - txts: 7316165
+2021-10-23 21:17:18,773 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint start
+2021-10-23 21:17:18,773 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose start
+2021-10-23 21:17:18,781 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose synched
+2021-10-23 21:17:21,416 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose script done
+2021-10-23 21:17:21,447 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose end
+2021-10-23 21:17:21,447 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint end - txts: 9754723
+2021-10-23 21:19:16,253 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint start
+2021-10-23 21:19:16,262 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose start
+2021-10-23 21:19:16,315 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose synched
+2021-10-23 21:19:19,763 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose script done
+2021-10-23 21:19:19,794 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose end
+2021-10-23 21:19:19,794 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint end - txts: 12193281
+2021-10-23 21:21:13,788 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint start
+2021-10-23 21:21:13,788 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose start
+2021-10-23 21:21:13,794 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose synched
+2021-10-23 21:21:17,959 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose script done
+2021-10-23 21:21:18,129 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] checkpointClose end
+2021-10-23 21:21:18,129 INFO sun.reflect.GeneratedMethodAccessor43 [HSQLDB Timer @5a772895] Checkpoint end - txts: 14631824
+2021-10-23 21:21:35,091 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Completed saving logs to database
+2021-10-23 21:22:06,788 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> 5000003 logs exist in database
+2021-10-23 21:22:06,788 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Processing finished. 5000003 records exist in database.
+2021-10-23 21:22:06,788 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Application finished in 826045 ms
+2021-10-23 21:22:06,796 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:22:06,796 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-10-23 21:22:06,829 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-10-23 21:24:52,653 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplication using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 16644 (D:\Programming\Java\codingAssignment\target\classes started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 21:24:52,653 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 21:24:52,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 21:24:53,060 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2021-10-23 21:24:53,243 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 21:24:53,381 INFO sun.reflect.NativeMethodAccessorImpl [main] Checkpoint start
+2021-10-23 21:24:53,381 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose start
+2021-10-23 21:24:53,414 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose synched
+2021-10-23 21:24:53,430 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose script done
+2021-10-23 21:24:53,450 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose end
+2021-10-23 21:24:53,450 INFO sun.reflect.NativeMethodAccessorImpl [main] Checkpoint end - txts: 1
+2021-10-23 21:24:53,466 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 21:24:53,466 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 21:24:53,513 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 21:24:53,550 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 21:24:53,613 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 21:24:53,682 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 21:24:54,051 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 21:24:54,067 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:24:54,430 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplication in 2.084 seconds (JVM running for 2.609)
+2021-10-23 21:25:09,952 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Reading data from file...
+2021-10-23 21:25:09,952 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Trying to read file: D:Programming/Java/codingChallenge/test.txt
+2021-10-23 21:25:09,952 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> File found D:\Programming\Java\codingAssignment\Programming\Java\codingChallenge\test.txt
+2021-10-23 21:25:09,952 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-23 21:25:09,983 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.github.tomekmazurek.codingassignment.CodingAssignmentApplication.main(CodingAssignmentApplication.java:46)
+Caused by: java.io.FileNotFoundException: File 'D:Programming\Java\codingChallenge\test.txt' does not exist
+	at org.apache.commons.io.FileUtils.openInputStream(FileUtils.java:254)
+	at org.apache.commons.io.FileUtils.lineIterator(FileUtils.java:1749)
+	at com.github.tomekmazurek.codingassignment.filehandling.FileReader.processFile(FileReader.java:30)
+	at com.github.tomekmazurek.codingassignment.CodingAssignmentApplication.run(CodingAssignmentApplication.java:63)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 5 common frames omitted
+2021-10-23 21:25:09,983 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:25:09,999 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2021-10-23 21:25:10,005 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2021-10-23 21:26:36,175 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplication using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 6780 (D:\Programming\Java\codingAssignment\target\classes started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 21:26:36,175 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 21:26:36,507 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 21:26:36,538 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+2021-10-23 21:26:36,764 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 21:26:36,923 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose start
+2021-10-23 21:26:36,923 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose synched
+2021-10-23 21:26:36,933 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose script done
+2021-10-23 21:26:36,949 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose end
+2021-10-23 21:26:36,949 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 21:26:36,949 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 21:26:36,996 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 21:26:37,034 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 21:26:37,096 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 21:26:37,165 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 21:26:37,497 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 21:26:37,497 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:26:37,852 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplication in 1.993 seconds (JVM running for 2.517)
+2021-10-23 21:26:59,504 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Reading data from file...
+2021-10-23 21:26:59,504 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Trying to read file: D:/Programming/Java/codingChallenge/test.txt
+2021-10-23 21:26:59,504 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> File found D:\Programming\Java\codingChallenge\test.txt
+2021-10-23 21:26:59,544 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Processing the file
+2021-10-23 21:26:59,883 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Processing completed. Found 200200 logs
+2021-10-23 21:26:59,883 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Finished...
+ >> Read 200200 objects in 379ms
+2021-10-23 21:26:59,883 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Processing data...
+2021-10-23 21:26:59,883 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Sorting Logs
+2021-10-23 21:27:00,116 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Logs sorted
+2021-10-23 21:27:00,228 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Entities created: 100100 total
+2021-10-23 21:27:00,228 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Checking if Logs exist in database
+2021-10-23 21:27:00,257 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >>0 of LogEntities read from file exist in database, 100100 entities will be stored
+2021-10-23 21:27:00,257 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Saving logs to database
+2021-10-23 21:27:03,018 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Completed saving logs to database
+2021-10-23 21:27:03,445 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> 100100 logs exist in database
+2021-10-23 21:27:03,445 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Processing finished. 100100 records exist in database.
+2021-10-23 21:27:03,445 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Application finished in 27671 ms
+2021-10-23 21:27:03,461 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:27:03,461 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-10-23 21:27:03,461 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-10-23 21:27:24,023 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplication using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 14332 (D:\Programming\Java\codingAssignment\target\classes started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 21:27:24,023 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 21:27:24,340 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 21:27:24,403 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2021-10-23 21:27:24,572 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 21:27:25,257 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose start
+2021-10-23 21:27:25,257 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose synched
+2021-10-23 21:27:25,339 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose script done
+2021-10-23 21:27:25,360 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose end
+2021-10-23 21:27:25,360 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 21:27:25,360 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 21:27:25,408 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 21:27:25,441 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 21:27:25,521 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 21:27:25,583 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 21:27:25,951 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 21:27:25,951 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:27:26,299 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplication in 2.575 seconds (JVM running for 3.086)
+2021-10-23 21:27:43,957 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Reading data from file...
+2021-10-23 21:27:43,957 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Trying to read file: D:/Programming/Java/codingChallenge/test.txt
+2021-10-23 21:27:43,957 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> File found D:\Programming\Java\codingChallenge\test.txt
+2021-10-23 21:27:43,963 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Processing the file
+2021-10-23 21:27:44,306 INFO com.github.tomekmazurek.codingassignment.filehandling.FileReader [main] >> Processing completed. Found 200200 logs
+2021-10-23 21:27:44,306 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Finished...
+ >> Read 200200 objects in 349ms
+2021-10-23 21:27:44,306 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Processing data...
+2021-10-23 21:27:44,306 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Sorting Logs
+2021-10-23 21:27:44,498 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Logs sorted
+2021-10-23 21:27:44,634 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Entities created: 100100 total
+2021-10-23 21:27:44,634 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Checking if Logs exist in database
+2021-10-23 21:27:44,746 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >>-100100 of LogEntities read from file exist in database, 0 entities will be stored
+2021-10-23 21:27:44,755 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Saving logs to database
+2021-10-23 21:27:44,757 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> Completed saving logs to database
+2021-10-23 21:27:45,157 INFO com.github.tomekmazurek.codingassignment.service.LogService [main] >> 100100 logs exist in database
+2021-10-23 21:27:45,157 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Processing finished. 100100 records exist in database.
+2021-10-23 21:27:45,157 INFO com.github.tomekmazurek.codingassignment.CodingAssignmentApplication [main] >> Application finished in 21519 ms
+2021-10-23 21:27:45,157 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 21:27:45,157 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-10-23 21:27:45,195 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2021-10-23 22:16:46,204 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplicationTests using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 19024 (started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 22:16:46,204 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 22:16:46,543 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 22:16:46,590 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-10-23 22:16:46,944 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 22:16:47,191 INFO sun.reflect.NativeMethodAccessorImpl [main] Checkpoint start
+2021-10-23 22:16:47,191 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose start
+2021-10-23 22:16:47,191 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose synched
+2021-10-23 22:16:47,191 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose script done
+2021-10-23 22:16:47,222 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose end
+2021-10-23 22:16:47,222 INFO sun.reflect.NativeMethodAccessorImpl [main] Checkpoint end - txts: 1
+2021-10-23 22:16:47,229 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 22:16:47,244 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 22:16:47,345 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 22:16:47,376 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 22:16:47,530 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 22:16:47,815 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 22:16:48,348 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 22:16:48,363 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 22:16:49,087 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplicationTests in 3.176 seconds (JVM running for 4.122)
+2021-10-23 22:18:12,535 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplicationTests using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 9420 (started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 22:18:12,543 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 22:18:12,888 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 22:18:12,930 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-10-23 22:18:13,235 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 22:18:17,638 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose start
+2021-10-23 22:18:17,638 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose synched
+2021-10-23 22:18:17,680 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose script done
+2021-10-23 22:18:17,707 INFO sun.reflect.NativeMethodAccessorImpl [main] checkpointClose end
+2021-10-23 22:18:17,707 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 22:18:17,722 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 22:18:17,807 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 22:18:17,854 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 22:18:17,994 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 22:18:18,239 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 22:18:18,740 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 22:18:18,756 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 22:18:19,506 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplicationTests in 7.29 seconds (JVM running for 8.165)
+2021-10-23 22:21:35,708 INFO org.springframework.boot.StartupInfoLogger [main] Starting CodingAssignmentApplicationTests using Java 1.8.0_311 on DESKTOP-FMAP63T with PID 11304 (started by mazur in D:\Programming\Java\codingAssignment)
+2021-10-23 22:21:35,708 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-10-23 22:21:36,055 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-23 22:21:36,094 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2021-10-23 22:21:36,745 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-23 22:21:38,071 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (feature not supported)
+2021-10-23 22:21:38,071 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-23 22:21:38,156 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-23 22:21:38,215 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-23 22:21:38,240 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-23 22:21:38,488 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2021-10-23 22:21:38,858 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-23 22:21:38,858 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 22:21:39,644 INFO org.springframework.boot.StartupInfoLogger [main] Started CodingAssignmentApplicationTests in 4.233 seconds (JVM running for 5.183)
+2021-10-23 22:21:39,758 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-23 22:21:39,766 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-10-23 22:21:39,779 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
